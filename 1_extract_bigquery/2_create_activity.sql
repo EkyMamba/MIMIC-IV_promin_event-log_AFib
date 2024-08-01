@@ -211,7 +211,7 @@ WHERE
 ORDER BY 
   stay_id
   
--- STEP 8: Anticoagulation
+-- STEP 8: Create icu_anticoagulation
 CREATE OR REPLACE TABLE `mimic-iv-ekymamba-2002.mimic_insights.icu_anticoagulation` AS
 SELECT 
   a.stay_id, 
